@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ee959e;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+}
+
+.center-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    width: 90%;
+    max-width: 420px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.center-box h1 {
+    color: #fe8894;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin-bottom: 15px;
+}
