@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Page 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="center-box">
+        <img src="Please Cat GIF - Please Cat Kitten - Discover & Share GIFs.gif" alt="Cute cat">
+
+        <h1>ASHI JI WILL YOU BE MY VALENTINE?</h1>
+
+        <div class="buttons">
+            <a href="yess.html">
+                <button class="yes-btn">YES</button>
+            </a>
+            <button class="no-btn" id="noBtn">No</button>
+        </div>
+
+        <p>No choose karne ki sochna bhi mat 😈😈</p>
+    </div>
+
+<script>
+const noBtn = document.getElementById("noBtn");
+
+noBtn.addEventListener("mouseover", () => {
+    const maxX = window.innerWidth - noBtn.offsetWidth;
+    const maxY = window.innerHeight - noBtn.offsetHeight;
+
+    const randomX = Math.floor(Math.random() * maxX);
+    const randomY = Math.floor(Math.random() * maxY);
+
+    noBtn.style.position = "absolute";
+    noBtn.style.left = randomX + "px";
+    noBtn.style.top = randomY + "px";
+});
+</script>
+
+</body>
+</html>
